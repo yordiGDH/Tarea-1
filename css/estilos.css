@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: maroon;
+    background-color: silver;
+}
+
+
+.seccion{
+    width: 100%;
+    overflow: hidden;
+   
+}
+
+section{
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    padding: 20px 20px 185px 20px;
+}
+
+section a{
+    padding: 10px;
+}
+
+
+
+section form .a01 div{
+    float: left;
+    position:relative;
+    width:10.6%;
+    height:100px;
+    padding: 0px;
+    border-bottom-color: black;
+    margin-bottom: 20px;
+    
+}
+
+section form .a02 div{
+    float: left;
+    position:relative;
+    width:10.6%;
+    height:100px;
+    padding: 0px;
+    margin-bottom: 20px;
+    border-bottom-color: black;
+}
+ 
+section form .a03 div{
+    float: left;
+    position:relative;
+    width:10.6%;
+    height:100px;
+    padding: 0px;
+    margin-bottom: 10px;
+    border-bottom-color: black;
+}
+
+
+
+section form div button{
+    position:absolute;
+	background:rgba(58, 156, 180, 0.719);
+	width:100%;
+	height:30px;
+    bottom:0px;
+    border-style: none;
+    cursor: pointer;    
+}
+
+section article{
+    background: white;
+    padding: 10px;
+    text-align: justify;
+}
+
+
+
+.seccion section div .descripcion{
+   float: left; 
+}
+
+.texto{
+    width: 100%;
+    overflow: hidden;
+}
+
+#texto h2{
+    color: rgb(57, 136, 201);
+    margin-top: 10px;
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+}
+
+.regresar{
+    background:rgba(58, 156, 180, 0.719);
+	width:150px;
+	height:30px;
+    bottom:0px;
+    border-style: none;
+    cursor: pointer; 
+    float: left;
+}
+
+.regresar button{
+    width: 100%;
+    padding: 5px;
+}
+
+.script{
+    width: 150px;
+    padding: 6px;
+    margin: 20px 200px 0 1px ;
+    float:left;
+    cursor: pointer;
+    background:rgba(58, 156, 180, 0.719);
+	height:30px;
+    bottom:0px;
+    border-style: none;
+    cursor: pointer;    
+}
+
+.rfc{
+    width: 150px;
+    padding: 6px;
+}
+
+.oculto {
+     display: none; 
+}
+.visible { 
+    display: inline; 
+}
+
+
+div section div form ul{
+    margin-left: 40px;
+}

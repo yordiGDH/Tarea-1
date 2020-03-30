@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/ejercicio_11.js"></script>
+</head>
+<body>
+    <div class="cabecera">
+        <header>
+            <h2>
+                Esta página valida si los datos ingresados tienen el formato de un RFC
+            </h2>
+        </header>
+    </div>
+
+    <div class="seccion">
+        <section>
+            <div class="ejercicio">
+                <div class="texto">
+                    <a href="index.html"><button class="regresar">Regresar</button></a>
+                </div>
+            
+                <form action="">
+                    <br>
+                    <h2>RFC</h2>
+                    <br>
+                    <input type="text" name="txtRFC" class="rfc" maxlength="13" size="15"/>
+		            <br/>
+                    <button type="submit" id="p11" class="script" onclick="return valida(txtRFC);">Validar RFC</button>
+                </form>
+                <div id="texto">
+
+                </div>
+            </div>
+     </section>  
+    </div>
+</body>
+</html> 
